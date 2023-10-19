@@ -7,10 +7,10 @@
 
 import UIKit
 
-class SubmitVC: UIViewController {
+public class SubmitVC: UIViewController {
     public static let storyboardVC = UIStoryboard(name: "SubmitVC", bundle: Bundle.module).instantiateInitialViewController()
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
