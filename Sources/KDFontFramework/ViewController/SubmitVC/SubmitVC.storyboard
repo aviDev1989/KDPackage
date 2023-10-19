@@ -79,8 +79,12 @@
                                     <constraint firstItem="HJW-QH-3EY" firstAttribute="top" secondItem="Cnh-sv-Ewy" secondAttribute="bottom" constant="26.666666666666686" id="gUO-17-VuQ"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Zeb-3y-Nop">
-                                <rect key="frame" x="175.33333333333334" y="153" width="42.666666666666657" height="42.666666666666657"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kik" translatesAutoresizingMaskIntoConstraints="NO" id="Zeb-3y-Nop">
+                                <rect key="frame" x="96.666666666666686" y="113" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="FaX-JH-e6M"/>
+                                    <constraint firstAttribute="width" constant="200" id="dHQ-LO-9fH"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
@@ -91,7 +95,7 @@
                             <constraint firstItem="h0l-aS-sya" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="XOE-vW-XNH"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="h0l-aS-sya" secondAttribute="trailing" id="Zii-CN-Kby"/>
                             <constraint firstItem="h0l-aS-sya" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="o4H-jC-609"/>
-                            <constraint firstItem="Zeb-3y-Nop" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="50" id="pGx-IX-hpV"/>
+                            <constraint firstItem="Zeb-3y-Nop" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="pGx-IX-hpV"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ZFR-SM-1sJ"/>
@@ -106,7 +110,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icon_logo" width="42.666667938232422" height="42.666667938232422"/>
+        <image name="kik" width="1402" height="1122"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
