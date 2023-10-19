@@ -75,7 +75,7 @@ public class KDFont: NSObject {
         
         
         let newViewController = SubmitViewController()
-
+        newViewController.view.backgroundColor = .red
         // Push the new view controller onto the navigation stack
         element.navigationController?.pushViewController(newViewController, animated: true)
 
