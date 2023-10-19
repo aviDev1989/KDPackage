@@ -80,11 +80,9 @@ public class KDFont: NSObject {
 //        element.navigationController?.pushViewController(newViewController, animated: true)
 
         
-        
-        
-         let storyboard: UIStoryboard = UIStoryboard(name: "Submit", bundle: nil)
-        let vc: UIViewController = storyboard.instantiateViewController(withIdentifier: "SubmitViewController") as! SubmitViewController
-         element.present(vc, animated: true)
+//        let storyboardVC = UIStoryboard(name: "Submit", bundle: Bundle.module).instantiateInitialViewController()!
+//        let vc: UIViewController = storyboardVC.instantiateViewController(withIdentifier: "SubmitViewController") as! SubmitViewController
+//         element.present(vc, animated: true)
      }
 
     func setIconColour(element: UIView) -> Void {
