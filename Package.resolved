@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftvalidators",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gkaimakas/SwiftValidators.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "49a83a1f00fc12686b38505127940f90ab9b9688"
+      }
+    }
+  ],
+  "version" : 2
+}
