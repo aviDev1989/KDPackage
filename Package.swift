@@ -22,7 +22,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "KDFontFramework",
-            dependencies: []),
+            dependencies: [],
+            resources: [.process("Submit.storyboard")]),
         .testTarget(
             name: "KDFontFrameworkTests",
             dependencies: ["KDFontFramework"]),

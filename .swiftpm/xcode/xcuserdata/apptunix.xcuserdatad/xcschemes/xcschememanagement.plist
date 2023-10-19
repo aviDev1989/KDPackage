@@ -17,6 +17,21 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>KDFontFramework</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>KDFontFrameworkTests</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>KDFontFramework_KDFontFramework</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>KDPackage</key>
 		<dict>
 			<key>primary</key>
