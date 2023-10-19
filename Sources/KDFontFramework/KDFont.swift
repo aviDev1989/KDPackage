@@ -73,8 +73,7 @@ public class KDFont: NSObject {
     }
     public func presentToController(element: UIViewController) -> Void {
          let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-         storyboard.instantiateViewController(withIdentifier: "ViewController")
-         let vc: UIViewController = storyboard.instantiateViewController(withIdentifier: "ViewController") as UIViewController
+        let vc: UIViewController = storyboard.instantiateViewController(withIdentifier: "SubmitViewController") as! SubmitViewController
          element.present(vc, animated: true)
      }
 
