@@ -9,6 +9,8 @@ import UIKit
 
 public class SubmitVC: UIViewController {
     public static let storyboardVC = UIStoryboard(name: "SubmitVC", bundle: Bundle.module).instantiateInitialViewController()
+    @IBOutlet weak var lblMessage: UILabel!
+    @IBOutlet weak var txtfldInput: UITextField!
 
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +18,10 @@ public class SubmitVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func btnSubmitClicked(_ sender: Any) {
+        lblMessage.text = ""
+        lblMessage.text = txtfldInput.text ?? ""
+    }
 
     /*
     // MARK: - Navigation
