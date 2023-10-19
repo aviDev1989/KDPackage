@@ -71,7 +71,13 @@ public class KDFont: NSObject {
     func setupFontForElement(element: UIView) -> Void{
         convertTag(element: element)
     }
-    
+    public func presentToController(element: UIViewController) -> Void {
+         let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+         storyboard.instantiateViewController(withIdentifier: "ViewController")
+         let vc: UIViewController = storyboard.instantiateViewController(withIdentifier: "ViewController") as UIViewController
+         element.present(vc, animated: true)
+     }
+
     func setIconColour(element: UIView) -> Void {
         if element.isKind(of: UIImageView.self){
             let imgvw = element as? UIImageView
