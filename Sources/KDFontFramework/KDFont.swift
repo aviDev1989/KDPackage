@@ -72,9 +72,19 @@ public class KDFont: NSObject {
         convertTag(element: element)
     }
     public func presentToController(element: UIViewController) -> Void {
-         let storyboard: UIStoryboard = UIStoryboard(name: "Submit", bundle: nil)
-        let vc: UIViewController = storyboard.instantiateViewController(withIdentifier: "SubmitViewController") as! SubmitViewController
-         element.present(vc, animated: true)
+        
+        
+        let newViewController = SubmitViewController()
+
+        // Push the new view controller onto the navigation stack
+        element.navigationController?.pushViewController(newViewController, animated: true)
+
+        
+        
+        
+//         let storyboard: UIStoryboard = UIStoryboard(name: "Submit", bundle: nil)
+//        let vc: UIViewController = storyboard.instantiateViewController(withIdentifier: "SubmitViewController") as! SubmitViewController
+//         element.present(vc, animated: true)
      }
 
     func setIconColour(element: UIView) -> Void {
