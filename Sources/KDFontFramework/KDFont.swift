@@ -7,12 +7,12 @@
 
 import UIKit
 
-class KDFont: NSObject {
+public class KDFont: NSObject {
     var arrElements              = [AnyObject]()
-    static let shared = KDFont()
-    var fontNameRegular : String = ""
-    var fontNameMedium : String = ""
-    var fontNameBold : String = ""
+    public static let shared = KDFont()
+    public var fontNameRegular : String = ""
+    public var fontNameMedium : String = ""
+    public var fontNameBold : String = ""
 
     
     //MARK: Size + Type ----> IF 203 THen Size 20
@@ -42,7 +42,7 @@ class KDFont: NSObject {
     var colour502 : UIColor = UIColor(named: "lightGreyText #153 153 153") ?? .lightGray
     var colour503 : UIColor = .lightGray
 
-    func setupForFont(_ View: UIView?) -> Void {
+    public func setupForFont(_ View: UIView?) -> Void {
         let arr_ele = self.arrAllElement(View) as [AnyObject]?
         if let CC = arr_ele?.count{
             for indx in 0..<CC {
