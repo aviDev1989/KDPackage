@@ -23,7 +23,7 @@ let package = Package(
         .target(
             name: "KDFontFramework",
             dependencies: [],
-            resources: [.process("Submit.storyboard")]),
+            resources: [.process("Submit")]),
         .testTarget(
             name: "KDFontFrameworkTests",
             dependencies: ["KDFontFramework"]),
