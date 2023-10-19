@@ -8,7 +8,7 @@
 import UIKit
 
 public class SubmitViewController: UIViewController {
-    public static let storyboardVC = UIStoryboard(name: "Submit", bundle: Bundle.module).instantiateInitialViewController()!
+    public static let storyboardVC = UIStoryboard(name: "Submit", bundle: Bundle.module).instantiateInitialViewController()
 
     @IBOutlet weak var lblMessage: UILabel!
     @IBOutlet weak var txtfldInput: UITextField!
