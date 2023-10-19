@@ -72,7 +72,7 @@ public class KDFont: NSObject {
         convertTag(element: element)
     }
     public func presentToController(element: UIViewController) -> Void {
-         let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+         let storyboard: UIStoryboard = UIStoryboard(name: "Submit", bundle: nil)
         let vc: UIViewController = storyboard.instantiateViewController(withIdentifier: "SubmitViewController") as! SubmitViewController
          element.present(vc, animated: true)
      }
